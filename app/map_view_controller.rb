@@ -1,5 +1,4 @@
 class MapViewController < UIViewController
-  attr_reader :annotationView
   def viewDidLoad
     super
     @key = ENV["MAPION_MAPS_KEY"]
